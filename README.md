@@ -70,7 +70,7 @@ Because the simulation is performed on a finite spatial domain,
 unphysical reflections can occur at the boundaries. These can be
 mitigated by enlarging the domain so the wavepacket never reaches the
 edges, or by applying optional absorbing boundary layers that remove
-outgoing probability.
+outgoing probability. This code uses an enlarged domain so the wavepacked never reaches the edges in the timespan of the animation.
 
 ---
 
